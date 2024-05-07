@@ -11,7 +11,7 @@ passport.use(
       clientID:
         "600670117781-pocqt7e5h45bdkjdqjoj3mlj7510po6t.apps.googleusercontent.com",
       clientSecret: "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",
-      callbackURL: "/auth/google/callback",
+      callbackURL: "https://teachtube.onrender.com/auth/google/callback",
     },
     async (accessToken, refreshToken, profile, done) => {
       const newUser = {
